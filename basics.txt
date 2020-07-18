@@ -1,0 +1,24 @@
+GitHub: GitHub is a cloud-based hosting service that lets you manage Git repositories.
+Git: Git is a version control system that lets you manage and keep track of your source code history.
+
+1. Login github account and create repository
+2. You can add README.md file for project description (optional)
+3. also add .gitignore file (optional)
+4. Now we can access repository by two way
+   a. https (through username & password)
+   b. ssh (through RSA key)
+
+
+Commands
+1. clone: git clone git-repo-url
+2. Add files: git add file-name
+              git add . (for multiple files at time)
+              git add -u (it will update or remove previously tracked files from the entire working tree. It will not add new files.)
+3. commit: The "commit" command is used to save your changes to the local repository.
+           git commit -m 'message here'
+4. push: push changes to remote
+         git push origin master
+5. pull: pull changes from remote
+         git pull origin master
+6. remove: git rm file-name
+7. move: git mv file-name
